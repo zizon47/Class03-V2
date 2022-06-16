@@ -47,6 +47,7 @@ Console.WriteLine("正解！");
 
 //ハンズオン５
 
+/*
 string Answer05 = "~";
 string userAnswer05;
 
@@ -59,6 +60,7 @@ do
 while (userAnswer05 != Answer05);
 
 Console.WriteLine("正解！");
+*/
 
 
 //ハンズオン４
@@ -76,3 +78,49 @@ while(loup <= 100)
 Console.WriteLine("合計は" + sum + "です。");
 */
 
+//ハンズオン６
+
+/*
+int sum05 = 0;
+for (int i = 1; i < 100; i++)
+{
+    sum05 += i;
+}
+Console.WriteLine("合計:" + sum05);
+*/
+
+//ハンズオン7
+
+/*
+float number = 3.14f;
+float result = number * 300.5f;
+Console.WriteLine(result);
+*/
+
+//ハンズオン８
+
+/*
+float number = 0f;
+for (int i = 0; i<1000; i++)
+{
+    number += 0.001f;
+}
+Console.WriteLine(number);
+
+float number2 = 10000f;
+number2 += 0.0001f;
+Console.WriteLine(number2);
+*/
+
+//ハンズオン９
+
+int number = 8;
+if (number >= 0)
+{
+
+}
+
+if(number <= 10)
+{
+
+}
