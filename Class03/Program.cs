@@ -114,13 +114,38 @@ Console.WriteLine(number2);
 
 //ハンズオン９
 
-int number = 8;
-if (number >= 0)
-{
+/*
+int number = 13;
+bool numberIsOver0 = number >= 0;
+bool numberIsUnder10 = number >= 10;
 
+if(numberIsOver0 && numberIsUnder10)
+{
+    //0以上１０以下です
+    Console.WriteLine(number + "は０以上１０以下です");
 }
 
-if(number <= 10)
+if(!numberIsOver0 || !numberIsUnder10)
 {
-
+    //0より小さいor１０より大きい
+    Console.WriteLine(number + "は0より小さいor１０より大きい");
 }
+*/
+
+//ハンズオン１０
+
+/*
+int temp1 = 1;
+int temp2 = 1;
+
+Console.WriteLine(1 + ";" + temp1);
+Console.WriteLine(2 + ";" + temp2);
+
+for (int i = 3; i <= 50; i++)
+{
+    int next = temp1 + temp2;
+    Console.WriteLine(i + ":" + next);
+    temp1 = temp2;
+    temp2 = next;
+}
+*/
